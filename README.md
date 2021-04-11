@@ -10,6 +10,8 @@ Install packages such as R, python, libv8
 ```sudo ./setup.sh``` 
 ### setup.R 
 
+```sudo Rscript setup.R```
+
 ## Quick Start 2021.02.15   Feb 15, 2021
 
 THIS SITE HAS BEEN COMPLETELY RESTRUCTURED.
