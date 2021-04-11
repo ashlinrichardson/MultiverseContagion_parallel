@@ -34,6 +34,8 @@ Increasing the mingle factor parameter from 1 to 10 (hazard radius is still 5):
 
 <img src="./png/counts_mf_5_10.gif" width=450>
 
+Clearly increasing the mingle factor can also increase the intensity of the epidemic, however this parameter behaves differently.
+
 ## Quick Start 2021.02.15   Feb 15, 2021
 
 THIS SITE HAS BEEN COMPLETELY RESTRUCTURED.
