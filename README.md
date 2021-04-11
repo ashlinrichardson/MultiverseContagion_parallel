@@ -20,6 +20,7 @@ Basic R interface to simulation
 
 ```Rscript run.R```
 
+<img src="./png/run_R.png" width=250>
 
 ## Quick Start 2021.02.15   Feb 15, 2021
 
