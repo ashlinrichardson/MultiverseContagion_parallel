@@ -6,6 +6,7 @@ This is a version of CovidSIMVL by Dr. Ernie Chang, modified for the purpose of 
 ## Files
 ### setup.sh
 Install packages such as R, python, libv8
+
 ```sudo ./setup.sh``` 
 ### setup.R 
 
