@@ -1,5 +1,5 @@
 # MultiverseContagion_parallel
-This is a version of CovidSIMVL for the purpose of demonstrating:
+This is a version of CovidSIMVL by Dr. Ernie Chang, modified for the purpose of demonstrating:
 * many simulation instances being run in parallel
 * nonparametric distributional representation to examine the collective behaviour of multiple simulations
 
