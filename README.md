@@ -28,6 +28,12 @@ Changing the hazard radius parameter from 5 to 10:
 
 <img src="./png/counts_5_10.gif" width=450>
 
+Increasing the mingle factor parameter from 1 to 10 (hazard radius is still 5):
+
+```Rscript run.R 5 10```
+
+<img src="./png/counts_mf_5_10.gif" width=450>
+
 ## Quick Start 2021.02.15   Feb 15, 2021
 
 THIS SITE HAS BEEN COMPLETELY RESTRUCTURED.
