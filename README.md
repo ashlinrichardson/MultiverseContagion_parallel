@@ -3,9 +3,7 @@ This is a version of CovidSIMVL by Dr. Ernie Chang, modified for the purpose of 
 * many simulation instances being run in parallel
 * nonparametric distributional representation to examine the collective behaviour of multiple simulations
 
-Although this version is superseded, it is retained to demo findings from many runs executed in parallel
-
-* All instructions demonstrated for Linux terminal 
+Although this version is superseded, it is retained to demo findings from many runs executed in parallel. Theoretically everything is multiplatform, here the instructions demonstrated were tested on a Linux terminal 
 ## Files
 ### setup.sh
 Install packages such as R, python, libv8
@@ -33,6 +31,8 @@ Increasing the mingle factor parameter from 1 to 10 (hazard radius is still 5):
 ```Rscript run.R 5 10```
 
 <img src="./png/counts_mf_5_10.gif" width=450>
+
+Clearly increasing the mingle factor can also increase the intensity of the epidemic, however this parameter behaves differently.
 
 ## Quick Start 2021.02.15   Feb 15, 2021
 
