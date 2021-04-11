@@ -3,6 +3,11 @@ This is a version of CovidSIMVL by Dr. Ernie Chang, modified for the purpose of 
 * many simulation instances being run in parallel
 * nonparametric distributional representation to examine the collective behaviour of multiple simulations
 
+## Files
+### setup.sh
+Install packages such as R, python, libv8
+```sudo ./setup.sh``` 
+### setup.R 
 
 ## Quick Start 2021.02.15   Feb 15, 2021
 
