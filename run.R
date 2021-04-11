@@ -21,6 +21,16 @@ SYMPTOMATIC_CASES <- 13.0 # longditudinal value (days): symptomatic from PRESYMP
 MIN_ITERATIONS <- 2000 # minimum number of steps per trial
 MAX_ITERATIONS <- 2000 # maximum number of steps per trial
 
+
+# read parameters from command-line args
+args = commandArgs(trailingOnly=TRUE)
+if(length(args) == 0) stop("Rscript run.R [hazard radius] [mingle factor] [incubating] [presymptomatic] [symptomatic_cases]");
+if(length(args) > 0) HAZARD_RADIUS = as.numeric(args[1])
+if(length(args) > 1) MINGLE_FACTOR = as.numeric(args[2])
+if(length(args) > 2) INCUBATING = as.numeric(args[3])
+if(length(args) > 3) PRESYMPTOMATIC = as.numeric(args[4])
+if(length(args) > 4) SYMPTOMATIC_CASES = as.numeric(args[5])
+
 # end simulation parameters ###########################
 
 src<-function(x){
