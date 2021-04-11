@@ -38,6 +38,12 @@ Clearly increasing the mingle factor can also increase the intensity of the epid
 
 <img src="./png/counts_mf_5_5.gif" width=450>
 
+Increasing the value of the incubation parameter from 2.2 to 3.2 can 
+
+```Rscript run.R 5 1 3.2```
+
+<img src="./png/counts_inc_2.2_3.2.gif" width=450>
+
 ## Quick Start 2021.02.15   Feb 15, 2021
 
 THIS SITE HAS BEEN COMPLETELY RESTRUCTURED.
