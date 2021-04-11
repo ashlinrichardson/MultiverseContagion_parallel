@@ -22,9 +22,9 @@ Basic R interface to simulation
 
 <img src="./png/run_R.png" width=350>
 
-Default parameters:
+Changing the hazard radius parameter from 5 to 10:
 
-```Rscript run.R 5 1```
+```Rscript run.R 10```
 
 
 
