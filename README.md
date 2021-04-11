@@ -22,6 +22,12 @@ Basic R interface to simulation
 
 <img src="./png/run_R.png" width=350>
 
+Default parameters:
+
+```Rscript run.R 5 1```
+
+
+
 ## Quick Start 2021.02.15   Feb 15, 2021
 
 THIS SITE HAS BEEN COMPLETELY RESTRUCTURED.
