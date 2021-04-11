@@ -20,7 +20,7 @@ Basic R interface to simulation
 
 ```Rscript run.R```
 
-<img src="./png/run_R.png" width=423>
+<img src="./png/run_R.png" width=425>
 
 Changing the hazard radius parameter from 5 to 10:
 
