@@ -15,6 +15,12 @@ Install packages such as R, python, libv8
 
 ```sudo Rscript setup.R```
 
+### run.R
+Basic R interface to simulation
+
+```Rscript run.R```
+
+
 ## Quick Start 2021.02.15   Feb 15, 2021
 
 THIS SITE HAS BEEN COMPLETELY RESTRUCTURED.
