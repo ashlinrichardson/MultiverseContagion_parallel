@@ -78,6 +78,23 @@ Increasing the value of **SYMPTOMATIC_CASES** from 13 to 15 can also have a stre
 
 <img src="png/counts_sym_13_15.gif" width=450>
 
+## run.py
+
+Run the simulation many times in parallel. For example, using the default parameters:
+* HAZARD_RADIUS = 5.
+* MINGLE_FACTOR = 1.
+* INCUBATING = 2.2
+* PRESYMPTOMATIC = 5.2
+* SYMPTOMATIC_CASES = 13
+
+and running 100 separate instances of the simulation (where the random number generator is always seeded differently on each run):
+
+
+```
+python3 run.py 5 1 2.2 5.2 13 100
+```
+
+
 ## Quick Start 2021.02.15   Feb 15, 2021
 
 THIS SITE HAS BEEN COMPLETELY RESTRUCTURED.
