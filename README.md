@@ -21,6 +21,7 @@ Basic R interface to simulation
 <img src="./png/run_R.png" width=450>
 
 ### run.R: simulation parameters exposed:
+As in the run.R script:
 ```
 if(length(args) == 0) stop("Rscript run.R [hazard radius] [mingle factor] [incubating] [presymptomatic] [symptomatic_cases] [suppress plotting]");
 if(length(args) > 0) HAZARD_RADIUS = as.numeric(args[1])
@@ -30,6 +31,14 @@ if(length(args) > 3) PRESYMPTOMATIC = as.numeric(args[4])
 if(length(args) > 4) SYMPTOMATIC_CASES = as.numeric(args[5])
 if(length(args) > 5) SUPPRESS_PLOTTING = as.numeric(args[6])
 ```
+the following parameters are exposed:
+* HAZARD_RADIUS
+* MINGLE_FACTOR
+* INCUBATING (days incubation period from 0 days to INCUBATING)
+* PRESYMPTOMATIC (case is presymptomatic from INCUBATING to PRESYMPTOMATIC)
+* SYMPTOMATIC_CASES (case is symptomatic from PRESYMPTOMATIC to SYMPTOMATIC_CASES)
+
+SUPPRESS PLOTTING is a flag used when running the simulation automatically many times
 
 ### varying the parameters
 
