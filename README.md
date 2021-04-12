@@ -22,7 +22,13 @@ Basic R interface to simulation
 
 ### run.R: simulation parameters exposed:
 ```
-
+if(length(args) == 0) stop("Rscript run.R [hazard radius] [mingle factor] [incubating] [presymptomatic] [symptomatic_cases] [suppress plotting]");
+if(length(args) > 0) HAZARD_RADIUS = as.numeric(args[1])
+if(length(args) > 1) MINGLE_FACTOR = as.numeric(args[2])
+if(length(args) > 2) INCUBATING = as.numeric(args[3])
+if(length(args) > 3) PRESYMPTOMATIC = as.numeric(args[4])
+if(length(args) > 4) SYMPTOMATIC_CASES = as.numeric(args[5])
+if(length(args) > 5) SUPPRESS_PLOTTING = as.numeric(args[6])
 ```
 
 ### varying the parameters
