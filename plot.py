@@ -1,7 +1,11 @@
+'''plot.py: plot an average trajectory (with upper and lower bounds) for a collection of csv files in present directory'''
 import os
 import sys
 import numpy as np
 import matplotlib.pyplot as plt
+args = sys.argv
+
+arguments = args[1:] # for this script the arguments are only used to create the filename
 
 d = {}
 max_N = 0
@@ -68,7 +72,8 @@ legend = plt.legend()
 plt.setp(legend.get_texts(), color='w')
 plt.title("avg counts / state: " + str(int(N)) + " runs")
 plt.tight_layout()
-plt.savefig("plot.png")
+plt.savefig('_'.join(['plot'] + arguments) + '.png')
+
 
 '''
 "","green","yellow","blue","red","orange"
