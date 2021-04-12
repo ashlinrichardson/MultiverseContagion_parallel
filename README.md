@@ -128,7 +128,7 @@ Increasing the value of **SYMPTOMATIC_CASES** from 13 to 15: again a flattening 
 
 <img src="png/plot_sym_13_15.gif" width=450>
 
-## how to make comparison plots
+## makking comparison plots
 How the above interlaced gifs were made:
 ```
 convert -delay 100 plot_5_1_2.2_5.2_13_100.png plot_10_1_2.2_5.2_13_100.png plot_hzr_5_10.gif 
