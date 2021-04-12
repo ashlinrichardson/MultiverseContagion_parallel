@@ -6,12 +6,12 @@ args = sys.argv
 def run(c):
     a = os.system(c)
 
-# make sure the compiled code is ready
-run("Rscript run.R 1")
-
 if len(args) < 7:
     print("python3 run.py [hazard radius] [mingle factor] [incubating] [presymptomatic] [symptomatic] [number of simulations]")
     sys.exit(1)
+
+# make sure the compiled code is ready
+run("Rscript run.R 1")
 
 # cut out the simulation parameters from the above
 arguments = args[1: -1] # print(["haz", "min", "inc", "pre", "sym"])
