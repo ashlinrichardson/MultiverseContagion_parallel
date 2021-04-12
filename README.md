@@ -156,7 +156,7 @@ Because density estimation on grid, plots a surface, unlike in the above example
 **orange:**<br>
 <img src="png/density_5_1_2.2_5.2_13_100_orange.png" width=450>
 
-## changing HAZARD_RADIUS
+## changing HAZARD_RADIUS from 5 to 10
 
 **green:**<br>
 <img src="png/density_5_1_2.2_5.2_13_100_green.png" width=400><img src="png/density_hzr_5_10_green.gif" width=400>
@@ -172,6 +172,25 @@ Because density estimation on grid, plots a surface, unlike in the above example
 
 **orange:**<br>
 <img src="png/density_5_1_2.2_5.2_13_100_orange.png" width=400><img src="png/density_hzr_5_10_orange.gif" width=400>
+
+## changing MINGLE_FACTOR from 1 to 10
+
+**green:**<br>
+<img src="png/density_5_1_2.2_5.2_13_100_green.png" width=400><img src="png/density_mf_1_10_green.gif" width=400>
+
+**yellow:**<br>
+<img src="png/density_5_1_2.2_5.2_13_100_yellow.png" width=400><img src="png/density_mf_1_10_yellow.gif" width=400>
+
+**blue:**<br>
+<img src="png/density_5_1_2.2_5.2_13_100_blue.png" width=400><img src="png/density_mf_1_10_blue.gif" width=400>
+
+**red:**<br>
+<img src="png/density_5_1_2.2_5.2_13_100_red.png" width=400><img src="png/density_mf_1_10_red.gif" width=400>
+
+**orange:**<br>
+<img src="png/density_5_1_2.2_5.2_13_100_orange.png" width=400><img src="png/density_mf_1_10_orange.gif" width=400>
+
+
 
 
 ## Quick Start 2021.02.15   Feb 15, 2021
