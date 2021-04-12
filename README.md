@@ -46,37 +46,37 @@ Changing **HAZARD_RADIUS** from 5 to 10:
 
 ```Rscript run.R 10```
 
-<img src="./png/counts_5_10.gif" width=400>
+<img src="./png/run_R.png" width=400><img src="./png/counts_5_10.gif" width=400>
 
 Increasing **MINGLE_FACTOR** from 1 to 10 (hazard radius is still 5):
 
 ```Rscript run.R 5 10```
 
-<img src="./png/counts_mf_5_10.gif" width=400>
+<img src="./png/run_R.png" width=400><img src="./png/counts_mf_5_10.gif" width=400>
 
 Clearly increasing MINGLE_FACTOR also changes the intensity of the epidemic. For example, next varying **MINGLE_FACTOR** from 1 to 5, could result in a significantly delayed epidemic.How is this parameter behaving? Hard to tell with a stochastic simulation. We'll revisit this parameter change again after considering many simulation runs
 
 ```Rscript run.R 5 5```
 
-<img src="./png/counts_mf_5_5.gif" width=400>
+<img src="./png/run_R.png" width=400><img src="./png/counts_mf_5_5.gif" width=400>
 
 Increasing the value of **INCUBATING** from 2.2 to 3.2 can also smear the epidemic: 
 
 ```Rscript run.R 5 1 3.2```
 
-<img src="./png/counts_inc_2.2_3.2.gif" width=400>
+<img src="./png/run_R.png" width=400><img src="./png/counts_inc_2.2_3.2.gif" width=400>
 
 Increasing the value of **PRESYMPTOMATIC** from 5.2 to 7.2 can also have a stretching effect:
 
 ```Rscript run.R 5 1 2.2 7.2```
 
-<img src="png/counts_pre_5.2_7.2.gif" width=400>
+<img src="./png/run_R.png" width=400><img src="png/counts_pre_5.2_7.2.gif" width=400>
 
 Increasing the value of **SYMPTOMATIC_CASES** from 13 to 15 can also have a stretching effect:
 
 ```Rscript run.R 5 1 2.2 5.2 15```
 
-<img src="png/counts_sym_13_15.gif" width=400>
+<img src="./png/run_R.png" width=400><img src="png/counts_sym_13_15.gif" width=400>
 
 ## run.py
 
