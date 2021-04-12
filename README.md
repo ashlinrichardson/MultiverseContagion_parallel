@@ -41,6 +41,7 @@ the following parameters are exposed:
 SIMULATION_INDEX is used when running the simulation automatically many times. If it is provided then plotting is waived
 
 ### varying the parameters
+in all cases we show the results from the default parameters on the left so the comparison is excessively clear
 
 Changing **HAZARD_RADIUS** from 5 to 10:
 
