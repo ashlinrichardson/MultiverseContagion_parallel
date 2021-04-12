@@ -104,6 +104,7 @@ python3 plot.py 5 1 2.2 5.2 13 100
 
 <img src="png/plot_5_1_2.2_5.2_13_100.png" width=450>
 
+<img src="png/plot_hzr_5_10.png" width=450>
 
 ## Quick Start 2021.02.15   Feb 15, 2021
 
