@@ -54,7 +54,7 @@ Increasing **MINGLE_FACTOR** from 1 to 10 (hazard radius is still 5):
 
 <img src="./png/counts_mf_5_10.gif" width=450>
 
-Clearly increasing MINGLE_FACTOR also increase the intensity of the epidemic, however this parameter behaves differently.  For example, next varying **MINGLE_FACTOR** from 1 to 5, could result in a significantly delayed epidemic. That is the behaviour of this parameter is not necessarily linear:
+Clearly increasing MINGLE_FACTOR also increase the intensity of the epidemic, however this parameter behaves differently.  For example, next varying **MINGLE_FACTOR** from 1 to 5, could result in a significantly delayed epidemic. Is the behaviour of this parameter linear? Hard to tell with a stochastic simulation. We'll revisit this after considering many simulation runs
 
 ```Rscript run.R 5 5```
 
