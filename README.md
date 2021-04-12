@@ -126,6 +126,7 @@ Increasing the value of **PRESYMPTOMATIC** from 5.2 to 7.2 had a bit of a flatte
 
 Increasing the value of **SYMPTOMATIC_CASES** from 13 to 15: again a flattening / stretching effect. Further investigation req'd. Probably need to change these parameters more to see a clearler change
 
+<img src="png/plot_sym_13_15.gif" width=450>
 
 ## making comparison plots
 How the above interlaced gifs were made:
