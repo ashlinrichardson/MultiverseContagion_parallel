@@ -24,13 +24,15 @@ MAX_ITERATIONS <- 2000 # maximum number of steps per trial
 SUPPRESS_PLOTTING <- 0
 # read parameters from command-line args
 args = commandArgs(trailingOnly=TRUE)
-if(length(args) == 0) stop("Rscript run.R [hazard radius] [mingle factor] [incubating] [presymptomatic] [symptomatic_cases] [suppress plotting]");
+if(length(args) == 0) stop("Rscript run.R [hazard radius] [mingle factor] [incubating] [presymptomatic] [symptomatic_cases] [simulation index]");
 if(length(args) > 0) HAZARD_RADIUS = as.numeric(args[1])
 if(length(args) > 1) MINGLE_FACTOR = as.numeric(args[2])
 if(length(args) > 2) INCUBATING = as.numeric(args[3])
 if(length(args) > 3) PRESYMPTOMATIC = as.numeric(args[4])
 if(length(args) > 4) SYMPTOMATIC_CASES = as.numeric(args[5])
-if(length(args) > 5) SUPPRESS_PLOTTING = as.numeric(args[6])
+
+if(length(args) > 5) SUPPRESS_PLOTTING = 1 # suppress plotting if a "simulation index" is given
+if(length(args) > 5) SIMULATION_INDEX = as.numeric(args[6])
 
 # end simulation parameters ###########################
 
@@ -73,9 +75,9 @@ state_names <- ctx$get("state_names")
 state_counts <- ctx$get("state_counts")
 colnames(state_counts) <- state_names # give the matrix column names
 
-csv_fn <- paste("counts_", HAZARD_RADIUS, "_", MINGLE_FACTOR, "_", INCUBATING, "_", PRESYMPTOMATIC, "_", SYMPTOMATIC_CASES, ".csv", sep="")
-pdf_fn <- paste("counts_", HAZARD_RADIUS, "_", MINGLE_FACTOR, "_", INCUBATING, "_", PRESYMPTOMATIC, "_", SYMPTOMATIC_CASES, ".pdf", sep="")
-png_fn <- paste("counts_", HAZARD_RADIUS, "_", MINGLE_FACTOR, "_", INCUBATING, "_", PRESYMPTOMATIC, "_", SYMPTOMATIC_CASES, ".png", sep="")
+csv_fn <- paste("counts_", HAZARD_RADIUS, "_", MINGLE_FACTOR, "_", INCUBATING, "_", PRESYMPTOMATIC, "_", SYMPTOMATIC_CASES, "_", SIMULATION_INDEX, ".csv", sep="")
+pdf_fn <- paste("counts_", HAZARD_RADIUS, "_", MINGLE_FACTOR, "_", INCUBATING, "_", PRESYMPTOMATIC, "_", SYMPTOMATIC_CASES, "_", SIMULATION_INDEX, ".pdf", sep="")
+png_fn <- paste("counts_", HAZARD_RADIUS, "_", MINGLE_FACTOR, "_", INCUBATING, "_", PRESYMPTOMATIC, "_", SYMPTOMATIC_CASES, "_", SIMULATION_INDEX, ".png", sep="")
 
 write.csv(state_counts, csv_fn)
 
