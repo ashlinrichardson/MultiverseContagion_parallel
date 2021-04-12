@@ -48,25 +48,25 @@ Changing **HAZARD_RADIUS** from 5 to 10:
 
 <img src="./png/counts_5_10.gif" width=450>
 
-Increasing the mingle factor parameter from 1 to 10 (hazard radius is still 5):
+Increasing **MINGLE_FACTOR** from 1 to 10 (hazard radius is still 5):
 
 ```Rscript run.R 5 10```
 
 <img src="./png/counts_mf_5_10.gif" width=450>
 
-Clearly increasing the mingle factor can also increase the intensity of the epidemic, however this parameter behaves differently.  For example, next varying the mingle factor from 1 to 5, could result in a significantly delayed epidemic. That is the behaviour of this parameter is nonlinear:
+Clearly increasing MINGLE_FACTOR also increase the intensity of the epidemic, however this parameter behaves differently.  For example, next varying **MINGLE_FACTOR** from 1 to 5, could result in a significantly delayed epidemic. That is the behaviour of this parameter is not necessarily linear:
 
 ```Rscript run.R 5 5```
 
 <img src="./png/counts_mf_5_5.gif" width=450>
 
-Increasing the value of the incubation parameter from 2.2 to 3.2 can also stretch out the epidemic: 
+Increasing the value of **INCUBATING** from 2.2 to 3.2 can also stretch out the epidemic: 
 
 ```Rscript run.R 5 1 3.2```
 
 <img src="./png/counts_inc_2.2_3.2.gif" width=450>
 
-Increasing the value of the presymptomatic parameter from 5.2 to 7.2 can also have a stretching effect:
+Increasing the value of **PRESYMPTOMATIC** from 5.2 to 7.2 can also have a stretching effect:
 
 ```Rscript run.R 5 1 2.2 7.2```
 
