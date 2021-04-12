@@ -141,19 +141,22 @@ convert -delay 100 plot_5_1_2.2_5.2_13_100.png plot_5_1_2.2_5.2_15_100.png plot_
 # plot_density.py
 Because density estimation on grid, plots a surface, unlike in the above examples it's not possible to plot all five states on the same chart.
 
-**green:**
+**green:**<br>
 <img src="png/density_5_1_2.2_5.2_13_100_green.png" width=450>
 
-**yellow:**
+**yellow:**<br>
 <img src="png/density_5_1_2.2_5.2_13_100_yellow.png" width=450>
 
 **blue:**
+
 <img src="png/density_5_1_2.2_5.2_13_100_blue.png" width=450>
 
 **red:**
+
 <img src="png/density_5_1_2.2_5.2_13_100_red.png" width=450>
 
 **orange:**
+
 <img src="png/density_5_1_2.2_5.2_13_100_orange.png" width=450>
 
 
