@@ -261,6 +261,15 @@ In the experiments to follow we'll keep these plots on the left to make sure it'
 **orange:**<br>
 <img src="png/density_5_1_2.2_5.2_13_100_orange.png" width=400><img src="png/density_sym_13_15_orange.gif" width=400>
 
+# plot_density_repeat.py
+
+To be documented
+
+# Conclusion
+CovidSIMVL is a capable of representing a significant variety of epidemiological progressions
+
+# Further work
+Further work should include calibration with real data
 
 ## Quick Start 2021.02.15   Feb 15, 2021
 
