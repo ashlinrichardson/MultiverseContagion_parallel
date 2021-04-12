@@ -1,5 +1,7 @@
 # MultiverseContagion_parallel
-This is a version of CovidSIMVL by Dr. Ernie Chang (the well-known physician, mathematical computing-scientist, AI researcher, health-informaticist, and epidemiologist) modified crudely for the purpose of demonstrating:
+Relating to CovidSIMVL by Dr. Ernie Chang (the well-known physician, mathematical computing-scientist, AI researcher, health-informaticist, and epidemiologist)..
+<br>
+..this is a version that is modified crudely for the purpose of demonstrating:
 * many simulation instances being run in parallel
 * nonparametric distributional representation to examine the collective behaviour of multiple simulations
 
