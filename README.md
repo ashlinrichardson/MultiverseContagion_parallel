@@ -32,7 +32,7 @@ Increasing the mingle factor parameter from 1 to 10 (hazard radius is still 5):
 
 <img src="./png/counts_mf_5_10.gif" width=450>
 
-Clearly increasing the mingle factor can also increase the intensity of the epidemic, however this parameter behaves differently. For example, varying the mingle factor from 1 to 5, could result in a significantly delayed epidemic. That is the behaviour of this parameter is nonlinear
+Clearly increasing the mingle factor can also increase the intensity of the epidemic, however this parameter behaves differently.  For example, next varying the mingle factor from 1 to 5, could result in a significantly delayed epidemic. That is the behaviour of this parameter is nonlinear:
 
 ```Rscript run.R 5 5```
 
