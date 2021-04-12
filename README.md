@@ -106,6 +106,18 @@ python3 plot.py 5 1 2.2 5.2 13 100
 
 <img src="png/plot_hzr_5_10.gif" width=450>
 
+<img src="png/plot_mf_1_10.gif" width=450>
+
+<img src="png/plot_mf_1_5.gif" width=450>
+
+<img src="png/plot_inc_2.2_3.2.gif" width=450>
+
+<img src="png/plot_pre_5.2_7.2.gif" width=450>
+
+<img src="png/plot_sym_13_15.gif" width=450>
+
+
+
 ## Quick Start 2021.02.15   Feb 15, 2021
 
 THIS SITE HAS BEEN COMPLETELY RESTRUCTURED.
