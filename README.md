@@ -269,7 +269,7 @@ In the experiments to follow we'll keep these plots on the left to make sure it'
 To be documented
 
 # Conclusion
-CovidSIMVL is a capable of representing a significant variety of epidemiological progressions
+CovidSIMVL is a capable of representing a significant variety of epidemiological progressions. Generally speaking, pushing back the incubation, presymptomatic or symptomatic period boundaries could appear to increase variance although this is not verified yet
 
 # Further work
 Further work should include calibration with real data
