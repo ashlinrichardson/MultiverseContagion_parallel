@@ -192,6 +192,22 @@ In the experiments to follow we'll keep these plots on the left to make sure it'
 **orange:**<br>
 <img src="png/density_5_1_2.2_5.2_13_100_orange.png" width=400><img src="png/density_mf_1_10_orange.gif" width=400>
 
+## changing MINGLE_FACTOR from 1 to 5
+
+**green:**<br>
+<img src="png/density_5_1_2.2_5.2_13_100_green.png" width=400><img src="png/density_mf_1_5_green.gif" width=400>
+
+**yellow:**<br>
+<img src="png/density_5_1_2.2_5.2_13_100_yellow.png" width=400><img src="png/density_mf_1_5_yellow.gif" width=400>
+
+**blue:**<br>
+<img src="png/density_5_1_2.2_5.2_13_100_blue.png" width=400><img src="png/density_mf_1_5_blue.gif" width=400>
+
+**red:**<br>
+<img src="png/density_5_1_2.2_5.2_13_100_red.png" width=400><img src="png/density_mf_1_5_red.gif" width=400>
+
+**orange:**<br>
+<img src="png/density_5_1_2.2_5.2_13_100_orange.png" width=400><img src="png/density_mf_1_5_orange.gif" width=400>
 
 
 
