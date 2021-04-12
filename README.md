@@ -213,53 +213,53 @@ In the experiments to follow we'll keep these plots on the left to make sure it'
 ## changing INCUBATING from 2.2 to 3.2
 
 **green:**<br>
-<img src="png/density_5_1_2.2_5.2_13_100_green.png" width=400><img src="png/density_inc_1_5_green.gif" width=400>
+<img src="png/density_5_1_2.2_5.2_13_100_green.png" width=400><img src="png/density_inc_2.2_3.2_green.gif" width=400>
 
 **yellow:**<br>
-<img src="png/density_5_1_2.2_5.2_13_100_yellow.png" width=400><img src="png/density_inc_1_5_yellow.gif" width=400>
+<img src="png/density_5_1_2.2_5.2_13_100_yellow.png" width=400><img src="png/density_inc_2.2_3.2_yellow.gif" width=400>
 
 **blue:**<br>
-<img src="png/density_5_1_2.2_5.2_13_100_blue.png" width=400><img src="png/density_inc_1_5_blue.gif" width=400>
+<img src="png/density_5_1_2.2_5.2_13_100_blue.png" width=400><img src="png/density_inc_2.2_3.2_blue.gif" width=400>
 
 **red:**<br>
-<img src="png/density_5_1_2.2_5.2_13_100_red.png" width=400><img src="png/density_inc_1_5_red.gif" width=400>
+<img src="png/density_5_1_2.2_5.2_13_100_red.png" width=400><img src="png/density_inc_2.2_3.2_red.gif" width=400>
 
 **orange:**<br>
-<img src="png/density_5_1_2.2_5.2_13_100_orange.png" width=400><img src="png/density_inc_1_5_orange.gif" width=400>
+<img src="png/density_5_1_2.2_5.2_13_100_orange.png" width=400><img src="png/density_inc_2.2_3.2_orange.gif" width=400>
 
 ## changing PRESYMPTOMATIC from 5.2 to 7.2
 
 **green:**<br>
-<img src="png/density_5_1_2.2_5.2_13_100_green.png" width=400><img src="png/density_pre_1_5_green.gif" width=400>
+<img src="png/density_5_1_2.2_5.2_13_100_green.png" width=400><img src="png/density_pre_5.2_7.2_green.gif" width=400>
 
 **yellow:**<br>
-<img src="png/density_5_1_2.2_5.2_13_100_yellow.png" width=400><img src="png/density_pre_1_5_yellow.gif" width=400>
+<img src="png/density_5_1_2.2_5.2_13_100_yellow.png" width=400><img src="png/density_pre_5.2_7.2_yellow.gif" width=400>
 
 **blue:**<br>
-<img src="png/density_5_1_2.2_5.2_13_100_blue.png" width=400><img src="png/density_pre_1_5_blue.gif" width=400>
+<img src="png/density_5_1_2.2_5.2_13_100_blue.png" width=400><img src="png/density_pre_5.2_7.2_blue.gif" width=400>
 
 **red:**<br>
-<img src="png/density_5_1_2.2_5.2_13_100_red.png" width=400><img src="png/density_pre_1_5_red.gif" width=400>
+<img src="png/density_5_1_2.2_5.2_13_100_red.png" width=400><img src="png/density_pre_5.2_7.2_red.gif" width=400>
 
 **orange:**<br>
-<img src="png/density_5_1_2.2_5.2_13_100_orange.png" width=400><img src="png/density_pre_1_5_orange.gif" width=400>
+<img src="png/density_5_1_2.2_5.2_13_100_orange.png" width=400><img src="png/density_pre_5.2_7.2_orange.gif" width=400>
 
 ## changing SYMPTOMATIC_CASES from 13 to 15
 
 **green:**<br>
-<img src="png/density_5_1_2.2_5.2_13_100_green.png" width=400><img src="png/density_sym_1_5_green.gif" width=400>
+<img src="png/density_5_1_2.2_5.2_13_100_green.png" width=400><img src="png/density_sym_13_15_green.gif" width=400>
 
 **yellow:**<br>
-<img src="png/density_5_1_2.2_5.2_13_100_yellow.png" width=400><img src="png/density_sym_1_5_yellow.gif" width=400>
+<img src="png/density_5_1_2.2_5.2_13_100_yellow.png" width=400><img src="png/density_sym_13_15_yellow.gif" width=400>
 
 **blue:**<br>
-<img src="png/density_5_1_2.2_5.2_13_100_blue.png" width=400><img src="png/density_sym_1_5_blue.gif" width=400>
+<img src="png/density_5_1_2.2_5.2_13_100_blue.png" width=400><img src="png/density_sym_13_15_blue.gif" width=400>
 
 **red:**<br>
-<img src="png/density_5_1_2.2_5.2_13_100_red.png" width=400><img src="png/density_sym_1_5_red.gif" width=400>
+<img src="png/density_5_1_2.2_5.2_13_100_red.png" width=400><img src="png/density_sym_13_15_red.gif" width=400>
 
 **orange:**<br>
-<img src="png/density_5_1_2.2_5.2_13_100_orange.png" width=400><img src="png/density_sym_1_5_orange.gif" width=400>
+<img src="png/density_5_1_2.2_5.2_13_100_orange.png" width=400><img src="png/density_sym_13_15_orange.gif" width=400>
 
 
 ## Quick Start 2021.02.15   Feb 15, 2021
