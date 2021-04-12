@@ -38,7 +38,7 @@ Clearly increasing the mingle factor can also increase the intensity of the epid
 
 <img src="./png/counts_mf_5_5.gif" width=450>
 
-Increasing the value of the incubation parameter from 2.2 to 3.2 can 
+Increasing the value of the incubation parameter from 2.2 to 3.2 can also stretch out the epidemic: 
 
 ```Rscript run.R 5 1 3.2```
 
