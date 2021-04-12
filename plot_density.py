@@ -3,6 +3,9 @@ import sys
 import math
 import numpy as np
 import matplotlib.pyplot as plt
+args = sys.argv
+
+arguments = args[1:] # for this script the arguments are only used to create the filename
 
 def err(m):
     print("Error:", m); sys.exit(1)
@@ -88,4 +91,4 @@ for k in range(len(lab)):
     print(count[k])
     plt.tight_layout()
     plt.title(lab[k] + " N=" + str(len(files))) # + " (still need to adjust scales..)")
-    plt.savefig("plot_" + lab[k] + ".png")
+    plt.savefig('_'.join(["density"] + arguments) + ".png")
