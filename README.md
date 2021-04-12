@@ -38,7 +38,7 @@ the following parameters are exposed:
 * PRESYMPTOMATIC (case is presymptomatic from INCUBATING to PRESYMPTOMATIC)
 * SYMPTOMATIC_CASES (case is symptomatic from PRESYMPTOMATIC to SYMPTOMATIC_CASES)
 
-SIMULAION_INDEX is used when running the simulation automatically many times. If it is provided then plotting is waived
+SIMULATION_INDEX is used when running the simulation automatically many times. If it is provided then plotting is waived
 
 ### varying the parameters
 
