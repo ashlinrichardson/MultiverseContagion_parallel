@@ -89,6 +89,6 @@ for k in range(len(lab)):
     plt.imshow(count[k])
     print(count[k].shape)
     print(count[k])
-    plt.tight_layout()
     plt.title(lab[k] + " N=" + str(len(files))) # + " (still need to adjust scales..)")
-    plt.savefig('_'.join(["density"] + arguments) + ".png")
+    plt.tight_layout()
+    plt.savefig('_'.join(["density"] + arguments + [lab[k]]) + ".png")
