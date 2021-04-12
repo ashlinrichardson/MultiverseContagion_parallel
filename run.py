@@ -27,8 +27,6 @@ f = open('run.sh', 'wb')
 for i in range(N_SIMULATIONS):
     args_use = arguments + [str(i + 1)]
     f.write(('Rscript run.R ' + (" ".join(args_use)) + ' > log_' + str(i + 1) + '.txt 2>&1\n').encode())
-    #if (i + 1) % CPU_COUNT == 0:
-    #    f.write('wait\n'.encode())
 f.close()
 
 run('chmod 755 run.sh')
