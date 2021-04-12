@@ -21,6 +21,9 @@ Basic R interface to simulation
 <img src="./png/run_R.png" width=450>
 
 ### run.R: simulation parameters exposed:
+```
+
+```
 
 ### varying the parameters
 
