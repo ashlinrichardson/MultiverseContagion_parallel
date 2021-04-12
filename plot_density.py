@@ -89,5 +89,3 @@ for k in range(len(lab)):
     plt.tight_layout()
     plt.title(lab[k] + " N=" + str(len(files))) # + " (still need to adjust scales..)")
     plt.savefig("plot_" + lab[k] + ".png")
-
-sys.exit(0)
