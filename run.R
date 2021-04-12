@@ -22,6 +22,7 @@ MIN_ITERATIONS <- 2000 # minimum number of steps per trial
 MAX_ITERATIONS <- 2000 # maximum number of steps per trial
 
 SUPPRESS_PLOTTING <- 0
+SIMULATION_INDEX <- 0
 # read parameters from command-line args
 args = commandArgs(trailingOnly=TRUE)
 if(length(args) == 0) stop("Rscript run.R [hazard radius] [mingle factor] [incubating] [presymptomatic] [symptomatic_cases] [simulation index]");
