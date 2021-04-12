@@ -72,6 +72,12 @@ Increasing the value of **PRESYMPTOMATIC** from 5.2 to 7.2 can also have a stret
 
 <img src="png/counts_pre_5.2_7.2.gif" width=450>
 
+Increasing the value of **SYMPTOMATIC_CASES** from 13 to 15 can also have a stretching effect:
+
+```Rscript run.R 5 1 2.2 5.2 15```
+
+<img src="png/counts_sym_13_15.gif" width=450>
+
 ## Quick Start 2021.02.15   Feb 15, 2021
 
 THIS SITE HAS BEEN COMPLETELY RESTRUCTURED.
