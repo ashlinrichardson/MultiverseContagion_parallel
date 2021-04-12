@@ -106,27 +106,27 @@ python3 plot.py 5 1 2.2 5.2 13 100
 
 Changing **HAZARD_RADIUS** from 5 to 10 we note the same behaviour as before for the mean, an intensified epidemic:
 
-<img src="png/plot_hzr_5_10.gif" width=400>
+<img src="png/plot_5_1_2.2_5.2_13_100.png" width=400><img src="png/plot_hzr_5_10.gif" width=400>
 
 Increasing **MINGLE_FACTOR** from 1 to 10, again this gives a more intense epidemic:
 
-<img src="png/plot_mf_1_10.gif" width=400>
+<img src="png/plot_5_1_2.2_5.2_13_100.png" width=400><img src="png/plot_mf_1_10.gif" width=400>
 
 Changing **MINGLE_FACTOR** from 1 to 5, this did flatten the epidemic out a bit, although perhaps not as dramatically as when considered a single iteration of the simulation: 
 
-<img src="png/plot_mf_1_5.gif" width=400>
+<img src="png/plot_5_1_2.2_5.2_13_100.png" width=400><img src="png/plot_mf_1_5.gif" width=400>
 
 Increasing the value of **INCUBATING** from 2.2 to 3.2 didn't have as obvious an effect as it did before. Further investigation required
 
-<img src="png/plot_inc_2.2_3.2.gif" width=400>
+<img src="png/plot_5_1_2.2_5.2_13_100.png" width=400><img src="png/plot_inc_2.2_3.2.gif" width=400>
 
 Increasing the value of **PRESYMPTOMATIC** from 5.2 to 7.2 had a bit of a flattening / stretching effect. Further investigation req'd
 
-<img src="png/plot_pre_5.2_7.2.gif" width=400>
+<img src="png/plot_5_1_2.2_5.2_13_100.png" width=400><img src="png/plot_pre_5.2_7.2.gif" width=400>
 
 Increasing the value of **SYMPTOMATIC_CASES** from 13 to 15: again a flattening / stretching effect. Further investigation req'd. Probably need to change these parameters more to see a clearler change
 
-<img src="png/plot_sym_13_15.gif" width=400>
+<img src="png/plot_5_1_2.2_5.2_13_100.png" width=400><img src="png/plot_sym_13_15.gif" width=400>
 
 ## making comparison plots
 How the above interlaced gifs were made:
