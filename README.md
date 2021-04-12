@@ -38,7 +38,7 @@ the following parameters are exposed:
 * PRESYMPTOMATIC (case is presymptomatic from INCUBATING to PRESYMPTOMATIC)
 * SYMPTOMATIC_CASES (case is symptomatic from PRESYMPTOMATIC to SYMPTOMATIC_CASES)
 
-SUPPRESS PLOTTING is a flag used when running the simulation automatically many times
+SUPPRESS PLOTTING is a flag used when running the simulation automatically many times (set it to 0 to generate plot in PNG format)
 
 ### varying the parameters
 
