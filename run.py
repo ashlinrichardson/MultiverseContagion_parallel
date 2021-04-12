@@ -9,12 +9,24 @@ def run(c):
 # make sure the compiled code is ready
 run("Rscript run.R 1")
 
-N_SIMULATIONS = 100 if len(args) < 2 else int(args[1])
+if len(args) < 7:
+    print("python3 run.py [hazard radius] [mingle factor] [incubating] [presymptomatic] [symptomatic] [number of simulations]")
+    sys.exit(1)
+
+# cut out the simulation parameters from the above
+arguments = args[1: -1] # print(["haz", "min", "inc", "pre", "sym"])
+
+# number of simulations to run
+N_SIMULATIONS = int(args[-1])
+print("N_SIM", N_SIMULATIONS)
+
+# get the number of CPU threads
 CPU_COUNT = os.cpu_count()
 
 f = open('run.sh', 'wb')
 for i in range(N_SIMULATIONS):
-    f.write(('Rscript run.R ' + str(i + 1) + ' > log_' + str(i + 1) + '.txt 2>&1\n').encode())
+    args_use = arguments + [str(i + 1)]
+    f.write(('Rscript run.R ' + (" ".join(args_use)) + ' > log_' + str(i + 1) + '.txt 2>&1\n').encode())
     #if (i + 1) % CPU_COUNT == 0:
     #    f.write('wait\n'.encode())
 f.close()
