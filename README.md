@@ -80,7 +80,7 @@ Increasing the value of **SYMPTOMATIC_CASES** from 13 to 15 can also have a stre
 
 ## run.py
 
-Run the simulation many times in parallel. For example, using the default parameters:
+Run the simulation many times in parallel. This invokes the R script a number of times and saves the result to csv for further use. For example, using the default parameters:
 * HAZARD_RADIUS = 5.
 * MINGLE_FACTOR = 1.
 * INCUBATING = 2.2
@@ -92,6 +92,15 @@ and running 100 separate instances of the simulation (where the random number ge
 
 ```
 python3 run.py 5 1 2.2 5.2 13 100
+```
+
+## plot.py
+This script takes the CSV files produced from run.py and produces plots with average trajectories for each state, and upper and lower bounds. In the future we would change this to +/- STDEV (instead of max, min)
+
+```
+rm *.csv 
+python3 run.py 5 1 2.2 5.2 13 100
+python3 plot.py
 ```
 
 
