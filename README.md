@@ -89,7 +89,6 @@ Run the simulation many times in parallel. This invokes the R script a number of
 
 and running 100 separate instances of the simulation (where the random number generator is always seeded differently on each run):
 
-
 ```
 python3 run.py 5 1 2.2 5.2 13 100
 ```
@@ -102,6 +101,8 @@ rm *.csv # make sure there aren't any simulation traces kicking around
 python3 run.py  5 1 2.2 5.2 13 100 
 python3 plot.py 5 1 2.2 5.2 13 100 
 ```
+
+<img src="png/plot_5_1_2.2_5.2_13_100.png" width=450>
 
 
 ## Quick Start 2021.02.15   Feb 15, 2021
