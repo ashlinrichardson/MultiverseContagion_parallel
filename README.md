@@ -156,6 +156,8 @@ Because density estimation on grid, plots a surface, unlike in the above example
 **orange:**<br>
 <img src="png/density_5_1_2.2_5.2_13_100_orange.png" width=450>
 
+In the experiments to follow we'll keep these plots on the left to make sure it's clear in the comparison which data are from the original scenario
+
 ## changing HAZARD_RADIUS from 5 to 10
 
 **green:**<br>
