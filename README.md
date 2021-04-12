@@ -128,7 +128,16 @@ Increasing the value of SYMPTOMATIC_CASES from 13 to 15
 
 <img src="png/plot_sym_13_15.gif" width=450>
 
-
+## how to make comparison plots
+How the above interlaced gifs were made:
+```
+convert -delay 100 plot_5_1_2.2_5.2_13_100.png plot_10_1_2.2_5.2_13_100.png plot_hzr_5_10.gif 
+convert -delay 100 plot_5_1_2.2_5.2_13_100.png plot_5_10_2.2_5.2_13_100.png plot_mf_1_10.gif 
+convert -delay 100 plot_5_1_2.2_5.2_13_100.png plot_5_5_2.2_5.2_13_100.png plot_mf_1_5.gif 
+convert -delay 100 plot_5_1_2.2_5.2_13_100.png plot_5_1_3.2_5.2_13_100.png plot_inc_2.2_3.2.gif 
+convert -delay 100 plot_5_1_2.2_5.2_13_100.png plot_5_1_2.2_7.2_13_100.png plot_pre_5.2_7.2.gif 
+convert -delay 100 plot_5_1_2.2_5.2_13_100.png plot_5_1_2.2_5.2_15_100.png plot_sym_13_15.gif 
+```
 
 ## Quick Start 2021.02.15   Feb 15, 2021
 
