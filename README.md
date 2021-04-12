@@ -4,21 +4,25 @@ This is a version of CovidSIMVL by Dr. Ernie Chang, modified for the purpose of 
 * nonparametric distributional representation to examine the collective behaviour of multiple simulations
 
 Although this version is superseded, it is retained to demo findings from many runs executed in parallel. Theoretically everything is multiplatform, here the instructions demonstrated were tested on a Linux terminal 
-## Files
-### setup.sh
+# Files
+## setup.sh
 Install packages such as R, python, libv8
 
 ```sudo ./setup.sh``` 
-### setup.R 
+## setup.R 
 
 ```sudo Rscript setup.R```
 
-### run.R
+## run.R
 Basic R interface to simulation
 
 ```Rscript run.R```
 
 <img src="./png/run_R.png" width=450>
+
+### run.R: simulation parameters exposed:
+
+### varying the parameters
 
 Changing the hazard radius parameter from 5 to 10:
 
