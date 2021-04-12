@@ -98,9 +98,9 @@ python3 run.py 5 1 2.2 5.2 13 100
 This script takes the CSV files produced from run.py and produces plots with average trajectories for each state, and upper and lower bounds. In the future we would change this to +/- STDEV (instead of max, min)
 
 ```
-rm *.csv 
-python3 run.py 5 1 2.2 5.2 13 100
-python3 plot.py
+rm *.csv # make sure there aren't any simulation traces kicking around
+python3 run.py  5 1 2.2 5.2 13 100 
+python3 plot.py 5 1 2.2 5.2 13 100 
 ```
 
 
