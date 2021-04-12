@@ -42,7 +42,7 @@ SUPPRESS PLOTTING is a flag used when running the simulation automatically many 
 
 ### varying the parameters
 
-Changing the hazard radius parameter from 5 to 10:
+Changing **HAZARD_RADIUS** from 5 to 10:
 
 ```Rscript run.R 10```
 
