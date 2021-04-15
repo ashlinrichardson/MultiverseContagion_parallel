@@ -272,7 +272,21 @@ To be documented
 CovidSIMVL is a capable of representing a significant variety of epidemiological progressions. Generally speaking, pushing back the incubation, presymptomatic or symptomatic period boundaries could appear to increase variance although this is not verified yet
 
 # Further work
-Further work should include calibration with real data
+Further work should include calibration with real data from the Vancouver Island Health Authority
+
+## Video creation from figures using FFMPEG
+
+Displaying available formats:
+
+```
+ffmpeg -pix_fmts
+```
+
+Creating video using some figures named img_001.png etc.. in yuv420p format (need to adjust that)
+
+```
+ffmpeg -r 1 -i img_%03d.png -c:v libx264 -crf 0  -vf fps=30 -pix_fmt yuv420p out.mp4
+```
 
 ## Quick Start 2021.02.15   Feb 15, 2021
 
